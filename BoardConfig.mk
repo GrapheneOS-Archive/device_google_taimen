@@ -41,3 +41,6 @@ TARGET_RECOVERY_UI_MARGIN_HEIGHT := 105
 # VTS DTBO Verification. This kernel cmdline parameter should be added by the bootloader
 # for all future devices.
 BOARD_KERNEL_CMDLINE += androidboot.dtbo_idx=12
+
+BOARD_PREBUILT_DTBOIMAGE := device/google/taimen-kernel/dtbo.img
+BOARD_DTBOIMG_PARTITION_SIZE := 8388608
